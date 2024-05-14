@@ -2,7 +2,6 @@ package it.prova.gestionefilm.model;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.List;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -127,10 +126,6 @@ public class Film {
 
 	public void setUpdateDateTime(LocalDateTime updateDateTime) {
 		this.updateDateTime = updateDateTime;
-	}
-
-	public void setRegisti(List<Regista> listaRegisti) {
-		this.listaRegisti = listaRegisti;
 	}
 
 }
